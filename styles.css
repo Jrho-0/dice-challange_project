@@ -19,7 +19,13 @@ p {
   }
 
   img {
-    width: 80%;
+    width: 50%;
+  }
+
+  .roll-dice {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
   }
 
 body {
