@@ -1,4 +1,35 @@
 .container {
     width: 70%;
     text-align: center;
+    margin: auto;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931; 
+    font-size: 8rem;
+    color: #3dc28de3;
+}
+
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  img {
+    width: 80%;
+  }
+
+body {
+    /* background-color: rgba(236, 221, 200, 0.808); */
+    background-color: #393e46;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 5%;
+    color:  #EEEEEE;
 }
