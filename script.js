@@ -19,6 +19,8 @@ if (randomDiceImage1 > randomDiceImage2) {
 
 document.getElementById("result").innerHTML = resultText;
 
-document.getElementById("refresh-btn").addEventListener("click", function() {
+document.getElementById("refresh-btn").addEventListener("click", reloadPage);
+
+function reloadPage() {
     location.reload()
-});
+}
