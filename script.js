@@ -24,3 +24,7 @@ document.getElementById("refresh-btn").addEventListener("click", reloadPage);
 function reloadPage() {
     location.reload()
 }
+
+//Anonymous function: // document.getElementById("refresh-btn").addEventListener("click", function () {
+    //location.reload()
+//});
