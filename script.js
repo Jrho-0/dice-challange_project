@@ -17,7 +17,7 @@ if (randomDiceImage1 > randomDiceImage2) {
     resultText = "It's a Draw!"; 
 }
 
-document.getElementById("result").textContent = resultText;
+document.getElementById("result").innerHTML = resultText;
 
 document.getElementById("refresh-btn").addEventListener("click", function() {
     location.reload()
